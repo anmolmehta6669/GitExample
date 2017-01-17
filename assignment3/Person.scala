@@ -1,7 +1,7 @@
 package com.knoldus.interns.assignment3
 
 /**
-  * Person class containing value class parameters (FirstName, LastName, Age)
+  * Person class containing name and age as parameters that extends Ordered Trait and compares the ages (If name is same) and length of names of two objects
   */
 class Person(val name:String, val age: Int) extends Ordered[Person] {
   override def compare(that: Person): Int = {
