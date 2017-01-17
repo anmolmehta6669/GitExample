@@ -5,10 +5,10 @@ package com.knoldus.interns.assignment3
   */
 class Person(val name:String, val age: Int) extends Ordered[Person] {
   override def compare(that: Person): Int = {
-    if (this.name == that.name)
-      this.age - that.age
+    if (this.name == that.name) //if name is same
+      this.age - that.age //then comparison based on ages
     else
-      this.name.length-that.name.length
+      this.name.length-that.name.length //else based on length of names
   }
 
 }
