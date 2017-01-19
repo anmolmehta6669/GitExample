@@ -1,4 +1,8 @@
+package com.knoldus.interns.assignment4
+
+
 object Aggregate{
+
 def main(args:Array[String]):Unit={
 	val list1= List(1,2,3,4,5)
 	val list2=List('a','b','c','d','e')
@@ -7,5 +11,7 @@ def main(args:Array[String]):Unit={
 	list3.map(println _)
 	}
 
+
+//	def aggregate()
 
 }

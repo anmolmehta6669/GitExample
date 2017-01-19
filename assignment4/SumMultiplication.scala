@@ -1,8 +1,8 @@
+package com.knoldus.interns.assignment4
+
+
 object SumMultiplication{
 	
-
-
-
 	def main(args:Array[String]):Unit={
 	val list=List(1,2,3,4,5)
 	val result=sumMul(list)
