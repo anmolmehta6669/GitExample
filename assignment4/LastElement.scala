@@ -1,3 +1,11 @@
+package com.knoldus.interns.assignment4
+
+import scala.collection.concurrent.RDCSS_Descriptor
+import scala.collection.immutable
+
+/**
+  * Created by knoldus on 20/1/17.
+  */
 object LastElement {
 def main(args: Array[String]): Unit = {
 
